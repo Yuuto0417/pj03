@@ -1,0 +1,42 @@
+h1,.list,h4{
+   font-family: 'Rubik Marker Hatch', cursive;
+   /* padding: 10px;
+   font-size: 50px; */
+}
+p::before{
+    content: ">>";
+    color: coral;
+ }
+ *::selection{
+    background-color:coral;
+ }
+ img{
+   transition: all 2s;
+ }
+ img:hover{
+   cursor: grab;
+   transform: rotate(-10deg);
+ }
+ h1,.list,h3,h4,.uta,p{
+   color: coral;
+   transition: all 2s ease-in;
+}
+ .list:hover{
+   background: linear-gradient(rgb(208, 255, 0), rgb(248, 204, 5));
+   color: tomato;
+}
+h1,.uta,h3,legend,p{
+   font-family: 'Zen Kurenaido', sans-serif;
+   font-weight: bold;
+}
+main{
+   background-color: rgb(253, 218, 176);
+   padding: 10px;
+}
+article{
+   display: flex;
+}
+.block{
+   border: 5px coral solid;
+   margin: 20px;
+}

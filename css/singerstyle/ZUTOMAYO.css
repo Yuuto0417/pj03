@@ -1,0 +1,46 @@
+body{
+   background-color: black;
+}
+h1,.list,h4{
+    font-family: 'Black Ops One', cursive;
+}
+.uta,p::before{
+     content: ">>";
+     color: lawngreen;
+  }
+aside ul.song li.uta{
+   list-style: square;
+   color: lawngreen;
+ }
+  *::selection{
+     background-color: lawngreen;
+  }
+  img{
+    transition: all 1s;
+  }
+  img:hover{
+    cursor: grab;
+    transform: scale(1.5);
+  }
+  h1,.list,h3,h4,legend,.uta,p{
+    color: lawngreen;
+    transition: all 2s ease-in;
+ }
+  .list:hover{
+    background: linear-gradient(rgb(255, 0, 106), rgb(248, 5, 195));
+    color: lawngreen;
+ }
+ .uta,h3,legend,p{
+   font-family: 'DotGothic16', sans-serif;
+   font-weight: bold;
+   text-shadow: 0 0 0;
+ }
+ fieldset{
+  border-width: 5px;
+  color: lawngreen;
+  width: 95%;
+  height: 220;
+ }
+ h1,.list,legend,img{
+  text-shadow: 2px 2px 0 rgb(248, 5, 195)
+ }

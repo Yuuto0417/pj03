@@ -1,0 +1,49 @@
+
+h1,.list,.uta,h3,h4,p,hr{
+    background: linear-gradient(to bottom, #df0144, #d76dbc, #f8f8f7);
+    background: -webkit-linear-gradient(to bottom, #df0144, #d76dbc, #f8f8f7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+ } 
+ h1,.list,h4{
+   font-family: 'Rubik Distressed', cursive;
+}
+ p::before{
+    content: ">>";
+    color: #d76dbc;
+ }
+ *::selection{
+    background-color: #d76dbc;
+ }
+ img{
+  transition: all 1s;
+ }
+ img:hover{
+   cursor: pointer;
+   transform: skewx(20deg)
+  }
+ .uta{
+   font-family: 'Zen Maru Gothic', sans-serif;
+ }
+ .list:hover{
+  background-color: linear-gradient(hsl(165, 97%, 35%), rgb(5, 179, 248));
+  color: lightpink;
+}
+.uta,h3,legend,p{
+  font-family: 'Stick', sans-serif;
+}
+main{
+  margin:auto;
+  padding: 30px;
+	width: 90vw;
+	height: 80vh;
+  background: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.8)),
+  url(../../img/Fantasy__Graphic\ Portofolio.jpg) no-repeat center/cover;
+}
+.block{
+  box-shadow:  -1px -1px  linear-gradient(hsl(165, 97%, 35%), rgb(5, 179, 248));
+  margin: 20px;
+}

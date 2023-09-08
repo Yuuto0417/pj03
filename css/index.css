@@ -1,0 +1,72 @@
+/* h1 {
+    transition: background-color 2s;
+} */
+
+/* h1:hover {
+    background-color: linear-gradient(to top, yellow, red);
+} */
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+.list{
+    font-size: 30px;
+    padding: 30px 10px ;
+    text-decoration-line: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.uta,h3,p{
+    text-decoration-line: none;
+}
+.uta::before{
+  content: ">>";
+} 
+h1{
+  font-size: 100px;
+}
+h4{
+  font-size: 10px;
+  
+}
+.center{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.indexsingerlist{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}  
+
+.container{
+  display: flex;
+}
+
+.float{
+  float: left;
+  margin-left: -30px;
+}
+
+
+.ver{
+  display: flex;
+  flex-direction: column;
+}
+
+.singer{
+  color: lime;
+  font-size: 30px;
+  padding: 0px 5px;
+  margin: 0px 10px;
+  font-family: 'Chokokutai', cursive;
+  text-decoration-line: none;
+  list-style-type: none;
+  text-decoration: none;
+  writing-mode: vertical-lr;
+}
